@@ -260,3 +260,20 @@ LogInit: Object subsystem initialized
 [2017.02.17-03.49.58:346][955]LogStats:             FDebug::EnsureFailed -  0.289 s
 [2017.02.17-03.50.19:372][350]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
 [2017.02.17-03.50.19:439][350]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/MajestyClone.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.02.17-03.51.45:095][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.02.17-03.51.49:312][909]Cmd: DELETE
+[2017.02.17-03.51.49:312][909]Cmd: ACTOR DELETE
+[2017.02.17-03.51.49:314][909]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.17-03.51.49:336][909]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2017.02.17-03.51.49:707][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.02.17-03.51.49:942][977]Cmd: DELETE
+[2017.02.17-03.51.49:942][977]Cmd: ACTOR DELETE
+[2017.02.17-03.51.49:943][977]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.17-03.51.49:955][977]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.02.17-03.51.55:341][616]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2017.02.17-03.52.04:096][756]LogSavePackage: Save=84.24ms
+[2017.02.17-03.52.04:096][756]LogSavePackage: Moving '../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Saved/Minimal_Default61AF550243DD260B975E84AF5CEF6F38.tmp' to '../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.02.17-03.52.04:098][756]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.02.17-03.52.04:210][756]LogSavePackage: Save=37.03ms
+[2017.02.17-03.52.04:211][756]LogSavePackage: Moving '../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Saved/Minimal_Default_BuiltDataBDF3D6884BBC24DC598F1E8E18D7502B.tmp' to '../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2017.02.17-03.52.04:212][756]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
