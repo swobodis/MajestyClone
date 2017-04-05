@@ -1,9 +1,9 @@
-﻿Log file open, 02/16/17 22:07:37
+﻿Log file open, 02/26/17 21:41:39
 LogInit:Display: Running engine for game: MajestyClone
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1785759133) SRandInit(1785759133).
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.073488
+LogInit:Display: RandInit(520032893) SRandInit(520032893).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.073990
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -43,509 +43,289 @@ LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.15
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.02.17-04.07.38:434][  0]LogInit: Selected Device Profile: [Windows]
-[2017.02.17-04.07.38:434][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.02.17-04.07.38:445][  0]LogInit: Computer: DESKTOP-KOM1LAT
-[2017.02.17-04.07.38:445][  0]LogInit: User: Isaac
-[2017.02.17-04.07.38:445][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.02.17-04.07.38:445][  0]LogInit: High frequency timer resolution =3.417965 MHz
-[2017.02.17-04.07.38:445][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.02.17-04.07.38:445][  0]LogMemory: Platform Memory Stats for Windows
-[2017.02.17-04.07.38:445][  0]LogMemory: Process Physical Memory: 261.52 MB used, 261.52 MB peak
-[2017.02.17-04.07.38:445][  0]LogMemory: Process Virtual Memory: 262.34 MB used, 262.34 MB peak
-[2017.02.17-04.07.38:445][  0]LogMemory: Physical Memory: 5307.98 MB used,  10937.27 MB free, 16245.25 MB total
-[2017.02.17-04.07.38:445][  0]LogMemory: Virtual Memory: 643.09 MB used,  10937.27 MB free, 134217728.00 MB total
-[2017.02.17-04.07.38:510][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.02.17-04.07.39:080][  0]LogD3D11RHI: D3D11 adapters:
-[2017.02.17-04.07.39:103][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2017.02.17-04.07.39:103][  0]LogD3D11RHI:       4061/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.02.17-04.07.39:109][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.02.17-04.07.39:109][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.02.17-04.07.39:110][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.02.17-04.07.39:110][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.02.17-04.07.39:110][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.02.17-04.07.39:113][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.02.17-04.07.39:113][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2017.02.17-04.07.39:113][  0]LogWindows: EnumDisplayDevices:
-[2017.02.17-04.07.39:113][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:0 D:1)
-[2017.02.17-04.07.39:113][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2017.02.17-04.07.39:113][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.02.17-04.07.39:113][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.02.17-04.07.39:114][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.02.17-04.07.39:114][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.02.17-04.07.39:114][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.02.17-04.07.39:114][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.02.17-04.07.39:114][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2017.02.17-04.07.39:114][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
-[2017.02.17-04.07.39:114][  0]LogD3D11RHI:      Driver Date: 12-29-2016
-[2017.02.17-04.07.39:114][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.02.17-04.07.39:127][  0]LogD3D11RHI: Async texture creation enabled
-[2017.02.17-04.07.39:137][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.02.17-04.07.39:224][  0]LogShaderCompilers: Guid format shader working directory is -60 characters bigger than the processId version (../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Intermediate/Shaders/WorkingDirectory/9100/).
-[2017.02.17-04.07.39:224][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Isaac/AppData/Local/Temp/UnrealShaderWorkingDir/77D8E83249749DE92C747D83D7E20D90/'.
-[2017.02.17-04.07.39:224][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.02.17-04.07.40:150][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.02.17-04.07.40:197][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.02.17-04.07.40:243][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.02.17-04.07.40:291][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.02.17-04.07.40:338][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.02.17-04.07.40:384][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.02.17-04.07.40:432][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.02.17-04.07.40:480][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.02.17-04.07.40:520][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.02.17-04.07.40:567][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.02.17-04.07.40:614][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.02.17-04.07.40:659][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.02.17-04.07.40:706][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.02.17-04.07.40:754][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.02.17-04.07.40:800][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.02.17-04.07.40:893][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.02.17-04.07.40:893][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.02.17-04.07.40:926][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.02.17-04.07.41:010][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.02.17-04.07.41:041][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.02.17-04.07.41:087][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.02.17-04.07.41:135][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.02.17-04.07.41:182][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.02.17-04.07.41:228][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.02.17-04.07.41:228][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.02.17-04.07.41:608][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.02.17-04.07.41:655][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Isaac/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.02.17-04.07.41:655][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Isaac/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.02.17-04.07.41:656][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.02.17-04.07.41:656][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.02.17-04.07.41:656][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.02.17-04.07.41:656][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.02.17-04.07.41:673][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.02.17-04.07.41:684][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Isaac/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.02.17-04.07.41:692][  0]LogSlate: Using Freetype 2.6.0
-[2017.02.17-04.07.41:692][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.02.17-04.07.41:692][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.02.17-04.07.41:908][  0]LogInit: Selected Device Profile: [Windows]
-[2017.02.17-04.07.41:910][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.02.17-04.07.42:089][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.02.17-04.07.42:126][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.02.17-04.07.42:164][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.02.17-04.07.42:164][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.02.17-04.07.42:164][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.02.17-04.07.42:631][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: majestyclone, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2964505564
-[2017.02.17-04.07.42:672][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
-[2017.02.17-04.07.42:716][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.025983 seconds
-[2017.02.17-04.07.42:720][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
-[2017.02.17-04.07.42:720][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
-[2017.02.17-04.07.42:720][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.02.17-04.07.42:773][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.02.17-04.07.44:093][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.02.17-04.07.44:126][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.02.17-04.07.44:501][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.02.17-04.07.44:815][  0]SourceControl: Info Source control is disabled
-[2017.02.17-04.07.46:236][  0]LogEngine: Initializing Engine...
-[2017.02.17-04.07.46:237][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.02.17-04.07.46:433][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.02.17-04.07.46:444][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.02.17-04.07.46:453][  0]LogInit: FAudioDevice initialized.
-[2017.02.17-04.07.46:477][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Isaac/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.02.17-04.07.46:486][  0]LogInit: Texture streaming: Enabled
-[2017.02.17-04.07.46:563][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.02.17-04.07.46:634][  0]LogInit: Transaction tracking system initialized
-[2017.02.17-04.07.46:921][  0]BlueprintLog: New page: Editor Load
-[2017.02.17-04.07.47:660][  0]LocalizationService: Info Localization service is disabled
-[2017.02.17-04.07.48:201][  0]LogConsoleResponse:Display: 
-[2017.02.17-04.07.48:301][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.02.17-04.07.48:301][  0]LogCook:Display: Mobile HDR setting 1
-[2017.02.17-04.07.48:760][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Content/' took 0.01s
-[2017.02.17-04.07.49:237][  0]LightingResults: New page: Lighting Build
-[2017.02.17-04.07.49:271][  0]MapCheck: New page: Map Check
-[2017.02.17-04.07.49:271][  0]LightingResults: New page: Lighting Build
-[2017.02.17-04.07.49:465][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2017.02.17-04.07.49:470][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.02.17-04.07.49:470][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.02.17-04.07.49:504][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.308ms to complete.
-[2017.02.17-04.07.49:504][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.267
-[2017.02.17-04.07.49:585][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.02.17-04.07.49:698][  0]LogCollectionManager: Loaded 0 collections in 0.001246 seconds
-[2017.02.17-04.07.49:784][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Saved/Collections/' took 0.01s
-[2017.02.17-04.07.49:784][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Content/Developers/Isaac/Collections/' took 0.01s
-[2017.02.17-04.07.49:784][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Content/Collections/' took 0.01s
-[2017.02.17-04.07.49:784][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.02.17-04.07.49:791][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2244 classes and 450 folders.
-[2017.02.17-04.07.49:794][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.02.17-04.07.49:794][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.02.17-04.07.49:846][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.02.17-04.07.49:877][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.02.17-04.07.49:913][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.02.17-04.07.50:001][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.02.17-04.07.50:006][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.02.17-04.07.50:063][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.02.17-04.07.50:064][  0]LogLoad: (Engine Initialization) Total time: 13.20 seconds
-[2017.02.17-04.07.50:064][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
-[2017.02.17-04.07.50:064][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.02.17-04.07.50:073][  0]LogOcInput: OculusInput pre-init called
-[2017.02.17-04.07.50:093][  0]SourceControl: Info On branch StartingLandscape
-[2017.02.17-04.07.50:093][  0]SourceControl: Info Your branch is up-to-date with 'origin/StartingLandscape'.
-[2017.02.17-04.07.50:093][  0]SourceControl: Info Changes not staged for commit:
-[2017.02.17-04.07.50:093][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
-[2017.02.17-04.07.50:093][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.02.17-04.07.50:093][  0]SourceControl: Info 	modified:   MajestyClone/Intermediate/CachedAssetRegistry.bin
-[2017.02.17-04.07.50:093][  0]SourceControl: Info 	modified:   MajestyClone/Saved/Config/Windows/Editor.ini
-[2017.02.17-04.07.50:093][  0]SourceControl: Info 	modified:   MajestyClone/Saved/Config/Windows/Engine.ini
-[2017.02.17-04.07.50:093][  0]SourceControl: Info 	modified:   MajestyClone/Saved/Logs/MajestyClone.log
-[2017.02.17-04.07.50:093][  0]SourceControl: Info Untracked files:
-[2017.02.17-04.07.50:093][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2017.02.17-04.07.50:093][  0]SourceControl: Info 	MajestyClone/Saved/Logs/MajestyClone-backup-2017.02.16-22.07.37.log
-[2017.02.17-04.07.50:093][  0]SourceControl: Info 	MajestyClone/Saved/Logs/UE4CC-Windows-CEC6299441806B5AD6AA9B8990C25269/
-[2017.02.17-04.07.50:093][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2017.02.17-04.07.50:094][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.02.17-04.07.50:095][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.02.17-04.07.50:098][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.02.17-04.07.50:102][  0]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.02.17-04.07.50:207][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.02.17-04.07.50:277][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2017.02.17-04.07.50:309][  1]LogAssetRegistry: Asset discovery search completed in 7.6579 seconds
-[2017.02.17-04.07.50:309][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2017.02.17-04.07.50:309][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
-[2017.02.17-04.08.32:785][510]SourceControl: Info On branch StartingLandscape
-[2017.02.17-04.08.32:785][510]SourceControl: Info Your branch is up-to-date with 'origin/StartingLandscape'.
-[2017.02.17-04.08.32:785][510]SourceControl: Info Changes not staged for commit:
-[2017.02.17-04.08.32:785][510]SourceControl: Info   (use "git add <file>..." to update what will be committed)
-[2017.02.17-04.08.32:785][510]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.02.17-04.08.32:785][510]SourceControl: Info 	modified:   MajestyClone/Intermediate/CachedAssetRegistry.bin
-[2017.02.17-04.08.32:785][510]SourceControl: Info 	modified:   MajestyClone/Saved/Config/Windows/Editor.ini
-[2017.02.17-04.08.32:785][510]SourceControl: Info 	modified:   MajestyClone/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.02.17-04.08.32:785][510]SourceControl: Info 	modified:   MajestyClone/Saved/Config/Windows/Engine.ini
-[2017.02.17-04.08.32:785][510]SourceControl: Info 	modified:   MajestyClone/Saved/Logs/MajestyClone.log
-[2017.02.17-04.08.32:785][510]SourceControl: Info Untracked files:
-[2017.02.17-04.08.32:785][510]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2017.02.17-04.08.32:785][510]SourceControl: Info 	MajestyClone/Saved/Logs/MajestyClone-backup-2017.02.16-22.07.37.log
-[2017.02.17-04.08.32:785][510]SourceControl: Info 	MajestyClone/Saved/Logs/UE4CC-Windows-CEC6299441806B5AD6AA9B8990C25269/
-[2017.02.17-04.08.32:785][510]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2017.02.17-04.11.13:914][848]LogEditorActor: Deleted Actor: Blueprint_WallSconce_C
-[2017.02.17-04.11.13:925][848]LogEditorActor: Deleted 1 Actors (0.012 secs)
-[2017.02.17-04.13.39:511][309]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.02.17-04.13.39:635][309]LogSavePackage: Save=60.54ms
-[2017.02.17-04.13.39:635][309]LogSavePackage: Moving '../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Saved/Minimal_Default1EB5218643ABB75E68569282F4ABCB6A.tmp' to '../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Content/StarterContent/Maps/Minimal_Default.umap'
-[2017.02.17-04.13.39:638][309]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Content/StarterContent/Maps/Minimal_Default.umap
-[2017.02.17-04.13.39:665][309]LogFileHelpers: Saving map 'Minimal_Default' took 0.146
-[2017.02.17-04.14.01:424][778]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
-[2017.02.17-04.14.01:501][778]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/MajestyClone.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
-[2017.02.17-04.14.01:585][778]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.084 s
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: === Handled ensure: ===
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: 
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/MajestyClone.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: Stack: 
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D1D595D6
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D1B09B72
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D1B1B656
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000D14EA6B8
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000C1E23D22
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000C1E23EB9
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000BEBC1D2E
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000BEB7B4B5
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000BEB7AA8D
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000BEB8F274
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000B804B851
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000B805D1ED
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000C1E29C5C
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C43E7517
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C4BF1AD6
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor.exe!0x000000004D04DEE3
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor.exe!0x000000004D03EB40
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor.exe!0x000000004D03EBBA
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor.exe!0x000000004D050A29
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: UE4Editor.exe!0x000000004D0522B6
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: KERNEL32.DLL!0x00000000012F8364
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: ntdll.dll!0x0000000001B070D1
-[2017.02.17-04.14.01:585][778]LogOutputDevice:Error: 
-[2017.02.17-04.14.01:596][778]LogStats:                SubmitErrorReport -  0.000 s
-[2017.02.17-04.14.01:764][778]LogStats:                    SendNewReport -  0.169 s
-[2017.02.17-04.14.01:764][778]LogStats:             FDebug::EnsureFailed -  0.263 s
-[2017.02.17-04.14.11:700][778]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.02.17-04.14.11:732][778]SourceControl: Info [StartingLandscape 1db88f0] stuff
-[2017.02.17-04.14.11:732][778]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
-[2017.02.17-04.14.11:746][778]SourceControl: Info Commited [StartingLandscape 1db88f0] stuff.
-[2017.02.17-04.16.49:801][642]LogHttp:Warning: 000001EE4C599D80: request failed, libcurl error: 0 (No error)
-[2017.02.17-04.16.49:801][642]LogHttp:Warning: 000001EE4C599D80: libcurl info message cache 0 (Connection 2 seems to be dead!)
-[2017.02.17-04.16.49:801][642]LogHttp:Warning: 000001EE4C599D80: libcurl info message cache 1 (Closing connection 2)
-[2017.02.17-04.16.49:801][642]LogHttp:Warning: 000001EE4C599D80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
-[2017.02.17-04.16.49:801][642]LogHttp:Warning: 000001EE4C599D80: libcurl info message cache 3 (  Trying 34.192.111.22...)
-[2017.02.17-04.16.49:801][642]LogHttp:Warning: 000001EE4C599D80: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (34.192.111.22) port 443 (#3))
-[2017.02.17-04.16.49:801][642]LogHttp:Warning: 000001EE4C599D80: libcurl info message cache 5 (ALPN, offering http/1.1)
-[2017.02.17-04.16.49:801][642]LogHttp:Warning: 000001EE4C599D80: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
-[2017.02.17-04.16.49:801][642]LogHttp:Warning: 000001EE4C599D80: libcurl info message cache 7 (SSL re-using session ID)
-[2017.02.17-04.16.49:801][642]LogHttp:Warning: 000001EE4C599D80: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
-[2017.02.17-04.16.49:801][642]LogHttp:Warning: 000001EE4C599D80: libcurl info message cache 9 (Closing connection 3)
-[2017.02.17-04.31.08:505][217]Cmd: QUIT_EDITOR
-[2017.02.17-04.31.08:554][217]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.02.17-04.31.08:581][217]LogExit: Preparing to exit.
-[2017.02.17-04.31.09:652][217]LogDirectoryWatcher: A directory notification for 'C:/Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Content/' was aborted.
-[2017.02.17-04.31.09:669][217]LogExit: Editor shut down
-[2017.02.17-04.31.09:669][217]LogExit: Transaction tracking system shut down
-[2017.02.17-04.31.09:719][217]LogObj: Freed 0b from 0 cluster array pools.
-[2017.02.17-04.31.09:719][217]LogExit: Object subsystem successfully closed.
-[2017.02.17-04.31.09:737][217]LogD3D11RHI: Shutdown
-[2017.02.17-04.31.09:737][217]LogD3D11RHI: CleanupD3DDevice
-[2017.02.17-04.31.09:800][217]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.02.17-04.31.09:812][217]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
-[2017.02.17-04.31.09:812][217]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
-[2017.02.17-04.31.09:812][217]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
-[2017.02.17-04.31.09:812][217]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
-[2017.02.17-04.31.09:812][217]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
-[2017.02.17-04.31.09:813][217]LogDirectoryWatcher: A directory notification for 'C:/Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Content/Collections/' was aborted.
-[2017.02.17-04.31.09:813][217]LogDirectoryWatcher: A directory notification for 'C:/Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Content/Developers/Isaac/Collections/' was aborted.
-[2017.02.17-04.31.09:813][217]LogDirectoryWatcher: A directory notification for 'C:/Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Saved/Collections/' was aborted.
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module BspMode (468)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module Media (441)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
-[2017.02.17-04.31.09:813][217]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module SessionServices (428)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
-[2017.02.17-04.31.09:814][217]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module MergeActors (398)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module SizeMap (396)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module TreeMap (394)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module XmlParser (378)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module Blutility (376)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
-[2017.02.17-04.31.10:424][217]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
-[2017.02.17-04.31.10:425][217]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
-[2017.02.17-04.31.10:425][217]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
-[2017.02.17-04.31.10:425][217]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
-[2017.02.17-04.31.10:425][217]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
-[2017.02.17-04.31.10:425][217]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
-[2017.02.17-04.31.10:425][217]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
-[2017.02.17-04.31.10:425][217]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
-[2017.02.17-04.31.10:467][217]LogModuleManager: Shutting down and abandoning module AutomationController (356)
-[2017.02.17-04.31.10:467][217]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
-[2017.02.17-04.31.10:467][217]LogModuleManager: Shutting down and abandoning module Layers (352)
-[2017.02.17-04.31.10:467][217]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
-[2017.02.17-04.31.10:467][217]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
-[2017.02.17-04.31.10:467][217]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
-[2017.02.17-04.31.10:467][217]LogModuleManager: Shutting down and abandoning module Persona (344)
-[2017.02.17-04.31.10:467][217]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
-[2017.02.17-04.31.10:467][217]LogModuleManager: Shutting down and abandoning module Kismet (340)
-[2017.02.17-04.31.10:467][217]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module Toolbox (334)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module OutputLog (328)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module GammaUI (326)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module Documentation (324)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module Niagara (322)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module PortalServices (316)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module AIModule (310)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
-[2017.02.17-04.31.10:468][217]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module SteamVR (298)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module OculusInput (290)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module CableComponent (284)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
-[2017.02.17-04.31.10:679][217]LogModuleManager: Shutting down and abandoning module SourceControl (243)
-[2017.02.17-04.31.10:680][217]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
-[2017.02.17-04.31.10:680][217]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
-[2017.02.17-04.31.10:680][217]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
-[2017.02.17-04.31.10:680][217]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
-[2017.02.17-04.31.10:680][217]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
-[2017.02.17-04.31.10:680][217]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
-[2017.02.17-04.31.10:680][217]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
-[2017.02.17-04.31.10:680][217]LogModuleManager: Shutting down and abandoning module MainFrame (228)
-[2017.02.17-04.31.10:680][217]LogModuleManager: Shutting down and abandoning module HotReload (227)
-[2017.02.17-04.31.10:681][217]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2017.02.17-04.31.10:681][217]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
-[2017.02.17-04.31.10:681][217]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
-[2017.02.17-04.31.10:681][217]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
-[2017.02.17-04.31.10:681][217]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
-[2017.02.17-04.31.10:783][217]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module Paper2D (202)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module MfMedia (196)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module VREditor (190)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module UMG (180)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module Sequencer (178)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module AssetTools (176)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module MessageLog (175)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module Slate (166)
-[2017.02.17-04.31.10:883][217]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
-[2017.02.17-04.31.10:886][217]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
-[2017.02.17-04.31.10:886][217]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
-[2017.02.17-04.31.10:886][217]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
-[2017.02.17-04.31.10:886][217]LogModuleManager: Shutting down and abandoning module Networking (156)
-[2017.02.17-04.31.10:886][217]LogModuleManager: Shutting down and abandoning module Core (152)
-[2017.02.17-04.31.10:886][217]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
-[2017.02.17-04.31.11:070][217]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.02.17-04.31.11:070][217]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Isaac/Documents/Unreal Projects/Majesty Clone Repository/MajestyClone/MajestyClone/Content/' was aborted.
-[2017.02.17-04.31.11:070][217]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.02.17-04.31.11:071][217]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
-[2017.02.17-04.31.11:071][217]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
-[2017.02.17-04.31.11:071][217]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
-[2017.02.17-04.31.11:071][217]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
-[2017.02.17-04.31.11:071][217]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
-[2017.02.17-04.31.11:071][217]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
-[2017.02.17-04.31.11:071][217]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
-[2017.02.17-04.31.11:071][217]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
-[2017.02.17-04.31.11:071][217]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
-[2017.02.17-04.31.11:103][217]LogDerivedDataCache: Shutdown
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module Messaging (91)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
-[2017.02.17-04.31.11:103][217]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module InputCore (50)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module Settings (48)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module OculusRift (46)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
-[2017.02.17-04.31.11:104][217]LogOnline:Display: Unloading online subsystem: NULL
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module XMPP (37)
-[2017.02.17-04.31.11:104][217]LogModuleManager: Shutting down and abandoning module HTTP (35)
-[2017.02.17-04.31.11:104][217]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.02.17-04.31.11:104][217]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B538BC064-465E-2B60-CE8A-5FB0130446AE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=ec02368649d5e732d86c4d8072cfece8%7Cc94e40301a8c4a318e173bc6651e7ce6%7Cc8f75585-71c0-47b9-b2e4-82e907cd2cd9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.02.17-04.31.11:106][217]LogModuleManager: Shutting down and abandoning module SSL (34)
-[2017.02.17-04.31.11:107][217]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.02.17-04.31.11:107][217]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.02.17-04.31.11:107][217]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.02.17-04.31.11:107][217]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.02.17-04.31.11:107][217]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.02.17-04.31.11:108][217]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.02.17-04.31.11:108][217]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.02.17-04.31.11:108][217]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.02.17-04.31.11:108][217]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.02.17-04.31.11:108][217]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.02.17-04.31.11:108][217]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.02.17-04.31.11:108][217]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.02.17-04.31.11:108][217]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.02.17-04.31.11:108][217]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.02.17-04.31.11:108][217]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.02.17-04.31.11:111][217]LogExit: Exiting.
-[2017.02.17-04.31.11:112][217]Log file closed, 02/16/17 22:31:11
+[2017.02.27-03.41.40:429][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.27-03.41.40:429][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.27-03.41.40:441][  0]LogInit: Computer: ISAIAH-PC
+[2017.02.27-03.41.40:441][  0]LogInit: User: Isaiah
+[2017.02.27-03.41.40:441][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.02.27-03.41.40:441][  0]LogInit: High frequency timer resolution =3.020503 MHz
+[2017.02.27-03.41.40:441][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.02.27-03.41.40:441][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.27-03.41.40:441][  0]LogMemory: Process Physical Memory: 262.30 MB used, 262.30 MB peak
+[2017.02.27-03.41.40:441][  0]LogMemory: Process Virtual Memory: 262.19 MB used, 262.19 MB peak
+[2017.02.27-03.41.40:441][  0]LogMemory: Physical Memory: 2872.46 MB used,  5284.71 MB free, 8157.16 MB total
+[2017.02.27-03.41.40:441][  0]LogMemory: Virtual Memory: 627.92 MB used,  5284.71 MB free, 134217728.00 MB total
+[2017.02.27-03.41.40:569][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.27-03.41.41:462][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.27-03.41.41:494][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2017.02.27-03.41.41:494][  0]LogD3D11RHI:       2017/0/4078 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.02.27-03.41.41:496][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.27-03.41.41:496][  0]LogD3D11RHI:       0/0/4078 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.27-03.41.41:496][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.27-03.41.41:500][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.27-03.41.41:501][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.27-03.41.41:501][  0]LogWindows: EnumDisplayDevices:
+[2017.02.27-03.41.41:501][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2017.02.27-03.41.41:501][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:0 D:1)
+[2017.02.27-03.41.41:501][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.02.27-03.41.41:502][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2017.02.27-03.41.41:502][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.02.27-03.41.41:502][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2017.02.27-03.41.41:502][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.02.27-03.41.41:502][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.02.27-03.41.41:502][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.27-03.41.41:518][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.02.27-03.41.41:519][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.27-03.41.41:537][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.02.27-03.41.41:638][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Intermediate/Shaders/WorkingDirectory/9248/).
+[2017.02.27-03.41.41:638][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ihswo/AppData/Local/Temp/UnrealShaderWorkingDir/DF576514414FC50AC5A1E69B9C9DF6C8/'.
+[2017.02.27-03.41.41:638][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.27-03.41.43:188][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.27-03.41.43:285][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.02.27-03.41.43:383][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.02.27-03.41.43:480][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.02.27-03.41.43:578][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.02.27-03.41.43:674][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.27-03.41.43:770][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.27-03.41.43:866][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.27-03.41.43:953][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.27-03.41.44:049][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.27-03.41.44:143][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.27-03.41.44:236][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.27-03.41.44:329][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.27-03.41.44:423][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.27-03.41.44:516][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.27-03.41.44:706][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.27-03.41.44:706][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.27-03.41.44:777][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.27-03.41.44:928][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.27-03.41.44:986][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.27-03.41.45:079][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.27-03.41.45:174][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.27-03.41.45:268][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.27-03.41.45:363][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.27-03.41.45:363][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.27-03.41.46:143][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.27-03.41.46:226][  0]LogDerivedDataCache: Loaded boot cache 0.08s 50MB C:/Users/ihswo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.02.27-03.41.46:226][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ihswo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.02.27-03.41.46:226][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.27-03.41.46:226][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.27-03.41.46:226][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.27-03.41.46:226][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.27-03.41.46:249][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.27-03.41.46:262][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ihswo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.27-03.41.46:275][  0]LogSlate: Using Freetype 2.6.0
+[2017.02.27-03.41.46:276][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.27-03.41.46:276][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.27-03.41.46:675][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.27-03.41.46:679][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.27-03.41.47:018][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.02.27-03.41.47:097][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.02.27-03.41.47:187][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.02.27-03.41.47:187][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.02.27-03.41.47:187][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.27-03.41.48:058][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: majestyclone, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2964505564
+[2017.02.27-03.41.48:121][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.02.27-03.41.48:216][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.037398 seconds
+[2017.02.27-03.41.48:223][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.02.27-03.41.48:223][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.02.27-03.41.48:223][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.27-03.41.48:337][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.27-03.41.51:169][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.27-03.41.51:233][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.27-03.41.52:046][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.27-03.41.52:728][  0]SourceControl: Info Source control is disabled
+[2017.02.27-03.41.56:670][  0]LogEngine: Initializing Engine...
+[2017.02.27-03.41.56:670][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.02.27-03.41.57:040][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.27-03.41.57:070][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.27-03.41.57:100][  0]LogInit: FAudioDevice initialized.
+[2017.02.27-03.41.57:138][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/ihswo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.02.27-03.41.57:153][  0]LogInit: Texture streaming: Enabled
+[2017.02.27-03.41.57:320][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.02.27-03.41.57:479][  0]LogInit: Transaction tracking system initialized
+[2017.02.27-03.41.58:136][  0]BlueprintLog: New page: Editor Load
+[2017.02.27-03.41.59:768][  0]LocalizationService: Info Localization service is disabled
+[2017.02.27-03.42.01:024][  0]LogConsoleResponse:Display: 
+[2017.02.27-03.42.01:244][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.27-03.42.01:244][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.27-03.42.02:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/' took 0.02s
+[2017.02.27-03.42.03:675][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/Maps/Majesty_Test_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.27-03.42.03:676][  0]LightingResults: New page: Lighting Build
+[2017.02.27-03.42.03:755][  0]MapCheck: New page: Map Check
+[2017.02.27-03.42.03:755][  0]LightingResults: New page: Lighting Build
+[2017.02.27-03.42.03:974][  0]LogLinker:Warning: Can't find file '/Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP'
+[2017.02.27-03.42.03:975][  0]LogLinker:Warning: Can't find file for asset '/Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/NPCMaster_BP.uasset.
+[2017.02.27-03.42.03:975][  0]LoadErrors:Error: Error /Game/Majesty/NPCs/NPCMaster_BP : Can't find file for asset. /Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP
+[2017.02.27-03.42.03:976][  0]LogLinker:Warning: Can't find file '/Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP'
+[2017.02.27-03.42.03:976][  0]LogLinker:Warning: Can't find file for asset '/Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/NPCMaster_BP.uasset.
+[2017.02.27-03.42.03:976][  0]LoadErrors:Error: Error /Game/Majesty/NPCs/NPCMaster_BP : Can't find file for asset. /Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP
+[2017.02.27-03.42.03:976][  0]LogLinker:Warning: Can't find file '/Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin'
+[2017.02.27-03.42.03:976][  0]LogLinker:Warning: Can't find file for asset '/Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/NPCMaster_BP.uasset.
+[2017.02.27-03.42.03:976][  0]LoadErrors:Error: Error /Game/Majesty/NPCs/NPCMaster_BP : Can't find file for asset. /Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin
+[2017.02.27-03.42.03:979][  0]LogLinker:Warning: Can't find file '/Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin'
+[2017.02.27-03.42.03:979][  0]LogLinker:Warning: Can't find file for asset '/Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/NPCMaster_BP.uasset.
+[2017.02.27-03.42.03:980][  0]LoadErrors:Error: Error /Game/Majesty/NPCs/NPCMaster_BP : Can't find file for asset. /Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin
+[2017.02.27-03.42.03:981][  0]LogLinker:Warning: Can't find file '/Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP'
+[2017.02.27-03.42.03:981][  0]LogLinker:Warning: Can't find file for asset '/Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/Peasant_BP.uasset.
+[2017.02.27-03.42.03:981][  0]LoadErrors:Error: Error /Game/Majesty/NPCs/Peasant_BP : Can't find file for asset. /Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP
+[2017.02.27-03.42.03:981][  0]LogLinker:Warning: Can't find file '/Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP'
+[2017.02.27-03.42.03:981][  0]LogLinker:Warning: Can't find file for asset '/Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/Peasant_BP.uasset.
+[2017.02.27-03.42.03:981][  0]LoadErrors:Error: Error /Game/Majesty/NPCs/Peasant_BP : Can't find file for asset. /Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP
+[2017.02.27-03.42.03:982][  0]LogLinker:Warning: Can't find file '/Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin'
+[2017.02.27-03.42.03:982][  0]LogLinker:Warning: Can't find file for asset '/Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/Peasant_BP.uasset.
+[2017.02.27-03.42.03:982][  0]LoadErrors:Error: Error /Game/Majesty/NPCs/Peasant_BP : Can't find file for asset. /Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin
+[2017.02.27-03.42.03:982][  0]LogLinker:Warning: Can't find file '/Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin'
+[2017.02.27-03.42.03:982][  0]LogLinker:Warning: Can't find file for asset '/Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/Peasant_BP.uasset.
+[2017.02.27-03.42.03:982][  0]LoadErrors:Error: Error /Game/Majesty/NPCs/Peasant_BP : Can't find file for asset. /Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin
+[2017.02.27-03.42.03:983][  0]LogLinker:Warning: Can't find file '/Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP'
+[2017.02.27-03.42.03:983][  0]LoadErrors: Info Failed to load /Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Referenced by CharacterMesh0
+[2017.02.27-03.42.03:983][  0]LogLinker:Warning: Can't find file for asset '/Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/Peasant_BP.uasset.
+[2017.02.27-03.42.03:983][  0]LoadErrors: Info Failed to load /Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Referenced by CharacterMesh0
+[2017.02.27-03.42.03:983][  0]LoadErrors:Error: Error /Game/Majesty/NPCs/Peasant_BP : Can't find file for asset. /Game/Majesty/Mannequin/Animations/ThirdPerson_AnimBP
+[2017.02.27-03.42.03:983][  0]LogLinker:Warning: Can't find file '/Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin'
+[2017.02.27-03.42.03:983][  0]LoadErrors: Info Failed to load /Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin Referenced by CharacterMesh0
+[2017.02.27-03.42.03:983][  0]LogLinker:Warning: Can't find file for asset '/Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/Peasant_BP.uasset.
+[2017.02.27-03.42.03:984][  0]LoadErrors: Info Failed to load /Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin Referenced by CharacterMesh0
+[2017.02.27-03.42.03:984][  0]LoadErrors:Error: Error /Game/Majesty/NPCs/Peasant_BP : Can't find file for asset. /Game/Majesty/Mannequin/Character/Mesh/SK_Mannequin
+[2017.02.27-03.42.04:251][  0]LogAIModule: Creating AISystem for world Majesty_Test_Map
+[2017.02.27-03.42.04:316][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.27-03.42.04:333][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.27-03.42.04:433][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.739ms to complete.
+[2017.02.27-03.42.04:433][  0]LogFileHelpers: Loading map 'Majesty_Test_Map' took 0.758
+[2017.02.27-03.42.04:522][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.27-03.42.04:758][  0]LogCollectionManager: Loaded 0 collections in 0.003635 seconds
+[2017.02.27-03.42.04:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Saved/Collections/' took 0.01s
+[2017.02.27-03.42.04:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Developers/Isaiah/Collections/' took 0.01s
+[2017.02.27-03.42.04:894][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Collections/' took 0.01s
+[2017.02.27-03.42.04:894][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.02.27-03.42.04:906][  0]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2244 classes and 450 folders.
+[2017.02.27-03.42.04:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.27-03.42.04:910][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.27-03.42.05:027][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.02.27-03.42.05:113][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.02.27-03.42.05:191][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.02.27-03.42.05:263][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.27-03.42.05:270][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.27-03.42.05:377][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.02.27-03.42.05:377][  0]LogLoad: (Engine Initialization) Total time: 27.70 seconds
+[2017.02.27-03.42.05:377][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
+[2017.02.27-03.42.05:377][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.02.27-03.42.05:386][  0]LogOcInput: OculusInput pre-init called
+[2017.02.27-03.42.05:405][  0]SourceControl: Info On branch IsaiahBranch
+[2017.02.27-03.42.05:405][  0]SourceControl: Info Your branch is up-to-date with 'origin/IsaiahBranch'.
+[2017.02.27-03.42.05:405][  0]SourceControl: Info Changes not staged for commit:
+[2017.02.27-03.42.05:405][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.02.27-03.42.05:405][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.02.27-03.42.05:405][  0]SourceControl: Info 	modified:   MajestyClone/Intermediate/CachedAssetRegistry.bin
+[2017.02.27-03.42.05:405][  0]SourceControl: Info 	modified:   MajestyClone/Saved/Config/Windows/Editor.ini
+[2017.02.27-03.42.05:405][  0]SourceControl: Info 	modified:   MajestyClone/Saved/Config/Windows/Engine.ini
+[2017.02.27-03.42.05:405][  0]SourceControl: Info 	modified:   MajestyClone/Saved/Logs/MajestyClone.log
+[2017.02.27-03.42.05:405][  0]SourceControl: Info Untracked files:
+[2017.02.27-03.42.05:405][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.02.27-03.42.05:405][  0]SourceControl: Info 	MajestyClone/Content/Mannequin/
+[2017.02.27-03.42.05:405][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.02.27-03.42.05:406][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.27-03.42.05:426][  0]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.02.27-03.42.05:432][  0]LogSlate: Took 0.000411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.02.27-03.42.05:439][  0]LogSlate: Took 0.000416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.02.27-03.42.05:582][  0]LogSlate: Took 0.000409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.02.27-03.42.05:653][  0]LogRenderer: Reallocating scene render targets to support 1028x524 NumSamples 1 (Frame:2).
+[2017.02.27-03.42.05:800][  2]LogAssetRegistry: Asset discovery search completed in 17.7021 seconds
+[2017.02.27-03.42.05:800][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2017.02.27-03.42.05:801][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2017.02.27-03.44.04:153][677]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.02.27-03.44.04:942][677]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.02.27-03.44.05:131][677]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.02.27-03.44.06:127][677]LogSlate: Took 0.000413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.02.27-03.44.07:758][774]LogSlate: Took 0.000499 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.02.27-03.44.08:988][842]LogEnum:Warning: In asset 'None', there is an enum property of type 'CharacterType_ENUM' with an invalid value of '(INVALID)'
+[2017.02.27-03.44.10:240][914]LogRenderer: Reallocating scene render targets to support 1028x720 NumSamples 1 (Frame:13792).
+[2017.02.27-03.44.17:120][369]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.02.27-03.44.19:019][478]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.02.27-03.44.23:373][736]BlueprintLog: New page: Compile NPCMaster_BP
+[2017.02.27-03.44.24:736][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Majesty/NPCs/NPCMaster_BP" FILE="../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/NPCMaster_BP.uasset" SILENT=true
+[2017.02.27-03.44.24:777][773]LogSavePackage: Save=30.96ms
+[2017.02.27-03.44.24:777][773]LogSavePackage: Moving '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Saved/NPCMaster_BP790C09C945B38AEBC07480BD3112B04A.tmp' to '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/NPCMaster_BP.uasset'
+[2017.02.27-03.44.24:782][773]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/NPCMaster_BP.uasset
+[2017.02.27-03.44.49:190][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Majesty/NPCs/NPCMaster_BP" FILE="../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/NPCMaster_BP.uasset" SILENT=true
+[2017.02.27-03.44.49:219][858]LogSavePackage: Save=21.01ms
+[2017.02.27-03.44.49:219][858]LogSavePackage: Moving '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Saved/NPCMaster_BPF5F445FB4F7778FD46120FB997BC4A13.tmp' to '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/NPCMaster_BP.uasset'
+[2017.02.27-03.44.49:223][858]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/NPCMaster_BP.uasset
+[2017.02.27-03.44.50:669][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Majesty/NPCs/Peasant_BP" FILE="../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/Peasant_BP.uasset" SILENT=true
+[2017.02.27-03.44.50:709][972]LogSavePackage: Save=31.17ms
+[2017.02.27-03.44.50:709][972]LogSavePackage: Moving '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Saved/Peasant_BPFF608D1C4F6AB62F25079DA3A57F7EF7.tmp' to '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/Peasant_BP.uasset'
+[2017.02.27-03.44.50:714][972]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/NPCs/Peasant_BP.uasset
+[2017.02.27-03.44.59:922][946]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.27-03.44.59:938][946]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map:PersistentLevel.Majesty_Test_Map' with GeneratedClass '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map_C' with ClassGeneratedBy '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map:PersistentLevel.Majesty_Test_Map'
+[2017.02.27-03.44.59:938][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.27-03.44.59:939][946]PIE: New page: PIE session: Majesty_Test_Map (Feb 26, 2017, 3:44:59 PM)
+[2017.02.27-03.44.59:939][946]LogPlayLevel: Creating play world package: /Game/Majesty/Maps/UEDPIE_0_Majesty_Test_Map
+[2017.02.27-03.44.59:966][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027530s)
+[2017.02.27-03.44.59:968][946]LogAIModule: Creating AISystem for world Majesty_Test_Map
+[2017.02.27-03.44.59:968][946]LogPlayLevel: PIE: World Init took: (0.001335s)
+[2017.02.27-03.44.59:968][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map to /Game/Majesty/Maps/UEDPIE_0_Majesty_Test_Map.Majesty_Test_Map (0.029288s)
+[2017.02.27-03.45.00:030][946]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.27-03.45.00:042][946]LogInit: FAudioDevice initialized.
+[2017.02.27-03.45.00:330][946]LogLoad: Game class is 'MajestyGameMode_C'
+[2017.02.27-03.45.00:334][946]LogWorld: Bringing World /Game/Majesty/Maps/UEDPIE_0_Majesty_Test_Map.Majesty_Test_Map up for play (max tick rate 0) at 2017.02.26-21.45.00
+[2017.02.27-03.45.00:335][946]LogWorld: Bringing up level for play took: 0.004096
+[2017.02.27-03.45.00:414][946]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.02.27-03.45.00:502][946]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-25.622 Y=7.769 Z=-33.675] for [Peasant_BP_C]
+[2017.02.27-03.45.00:502][946]PIE: Info Play in editor start time for /Game/Majesty/Maps/UEDPIE_0_Majesty_Test_Map 0.588
+[2017.02.27-03.45.00:503][946]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map:PersistentLevel.Majesty_Test_Map' with GeneratedClass '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map_C' with ClassGeneratedBy '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map:PersistentLevel.Majesty_Test_Map'
+[2017.02.27-03.45.12:805][410]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map:PersistentLevel.Majesty_Test_Map' with GeneratedClass '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map_C' with ClassGeneratedBy '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map:PersistentLevel.Majesty_Test_Map'
+[2017.02.27-03.45.12:843][410]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map:PersistentLevel' has LevelScriptBlueprint '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map:PersistentLevel.Majesty_Test_Map' with GeneratedClass '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map_C' with ClassGeneratedBy '/Game/Majesty/Maps/Majesty_Test_Map.Majesty_Test_Map:PersistentLevel.Majesty_Test_Map'
+[2017.02.27-03.45.16:305][815]LogEditorViewport: Clicking on Actor (LMB): Palace_BP_C (Palace_BP)
+[2017.02.27-03.45.31:601][196]LogSavePackage: Save=570.50ms
+[2017.02.27-03.45.31:601][196]LogSavePackage: Moving '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Saved/Majesty_Test_MapDB731C6E42FD9EDB822556AE036CC4C5.tmp' to '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/Maps/Majesty_Test_Map.umap'
+[2017.02.27-03.45.31:606][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/Maps/Majesty_Test_Map.umap
+[2017.02.27-03.45.53:970][962]LogSavePackage: Save=523.65ms
+[2017.02.27-03.45.53:970][962]LogSavePackage: Moving '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Saved/Majesty_Test_Map567F89AA48EF5AEC7936C3ACA0E3A964.tmp' to '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/Maps/Majesty_Test_Map.umap'
+[2017.02.27-03.45.53:973][962]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/Maps/Majesty_Test_Map.umap
+[2017.02.27-03.45.57:702][274]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2017.02.27-03.45.57:897][274]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/MajestyClone.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.02.27-03.45.58:043][274]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.146 s
+[2017.02.27-03.45.58:043][274]LogOutputDevice:Error: === Handled ensure: ===
+[2017.02.27-03.45.58:043][274]LogOutputDevice:Error: 
+[2017.02.27-03.45.58:043][274]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 650]
+[2017.02.27-03.45.58:043][274]LogOutputDevice:Error: Illegal call to DoesPackageExist: '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/MajestyClone.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.02.27-03.45.58:043][274]LogOutputDevice:Error: Stack: 
+[2017.02.27-03.45.58:043][274]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D3BA95D6
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D3959B72
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D396B656
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DD52A6B8
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000CAE33D22
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000CAE33EB9
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C7BB1D2E
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C7B6B4B5
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C7B6AA8D
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-SourceControlWindows.dll!0x00000000C7B7F274
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000C10FB851
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-GitSourceControl.dll!0x00000000C110D1ED
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-SourceControl.dll!0x00000000CAE39C5C
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CEE27517
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000CF631AD6
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor.exe!0x000000002F6FDEE3
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor.exe!0x000000002F6EEB40
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor.exe!0x000000002F6EEBBA
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor.exe!0x000000002F700A29
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: UE4Editor.exe!0x000000002F7022B6
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: KERNEL32.DLL!0x0000000001808364
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: ntdll.dll!0x0000000003F570D1
+[2017.02.27-03.45.58:044][274]LogOutputDevice:Error: 
+[2017.02.27-03.45.58:052][274]LogStats:                SubmitErrorReport -  0.000 s
+[2017.02.27-03.45.58:428][274]LogStats:                    SendNewReport -  0.376 s
+[2017.02.27-03.45.58:428][274]LogStats:             FDebug::EnsureFailed -  0.530 s
+[2017.02.27-03.46.42:891][156]LogSavePackage: Save=534.81ms
+[2017.02.27-03.46.42:891][156]LogSavePackage: Moving '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Saved/Majesty_Test_MapCEC19F3F4749D4199E825F98E0CBB10E.tmp' to '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/Maps/Majesty_Test_Map.umap'
+[2017.02.27-03.46.42:894][156]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/Content/Majesty/Maps/Majesty_Test_Map.umap
+[2017.02.27-03.46.49:328][744]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2017.02.27-03.46.49:517][744]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/MajestyClone.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2017.02.27-03.47.46:721][779]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.15/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.15/Engine/Content/' is outside repository
+[2017.02.27-03.47.46:909][779]LogPackageName:Error: Illegal call to DoesPackageExist: '../../../../../../Users/ihswo/Documents/Unreal Projects/MajestyClone/MajestyClone/MajestyClone.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
